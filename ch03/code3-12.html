@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CSS3 Selector Basic Page</title>
+<style>
+    /* 기본 속성 선택자 : 선택자[속성=값] [속성=값] */
+    input[type=text] {background : red;}    
+</style>
+</head>
+<body>
+    <form>
+        <input />
+        <input type="text"/>       
+        <!-- input 태그 모두 css type 속성값이 기본으로  text로 인식하지만 HTML 속성값을 정확히 text로 입력한 태그만 인정한다 -->
+    </form>
+</body>
+</html>
