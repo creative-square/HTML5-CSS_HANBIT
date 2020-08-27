@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="//vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.9/video-js"></script>
+<title>track 태그</title>
+</head>
+<body>
+    <video width="640" height="360" controls="controls">
+        <source src="sample/Wildlife.mp4"/>
+        <source src="sample/Wildlife.webm"/>
+
+        <track kind="subtitles" src="sample/track.srt" srclang="ko" label="Korean"/>
+        <track kind="subtitles" src="sample/track.srt" srclang="en" label="English"/>
+        <track kind="subtitles" src="sample/track.srt" srclang="jp" label="Japanese"/>
+        <track kind="subtitles" src="sample/track.srt" srclang="ch" label="Chinese"/>
+    </video>
+</body>
+</html>

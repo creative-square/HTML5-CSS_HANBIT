@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>table 태그 내부에 넣을 수 있는 다른 태그</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Caption</caption>
+        <colgrop>
+            <col span="2" style="background:red"/>
+            <col style="background:blue"/>
+        </colgrop>
+        <thead style="background:green">
+            <tr>
+                <th>Table Header</th>
+                <th>Table Header</th>
+                <th>Table Header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Table Date</td>
+                <td>Table Date</td>
+                <td>Table Date</td>
+            </tr>
+            <tr>
+                <td>Table Date</td>
+                <td>Table Date</td>
+                <td>Table Date</td>
+            </tr>
+            <tr>
+                <td>Table Date</td>
+                <td>Table Date</td>
+                <td>Table Date</td>
+            </tr>
+        </tbody>
+        <tfoot style="background:yellow">
+            <tr>
+                <td>Table Date</td>
+                <td>Table Date</td>
+                <td>Table Date</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
