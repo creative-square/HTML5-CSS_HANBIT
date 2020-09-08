@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>table 태그와 자손 선택자 주의사항</title>
+<style>
+    table>tbody>tr>th {color:green;}
+    /* table>tr>th {color:red;} */
+</style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Region</th>
+        </tr>
+        <tr>
+            <td>윤인성</td>
+            <td>서울 강서 내발산동</td>
+        </tr>
+    </table>
+</body>
+</html>

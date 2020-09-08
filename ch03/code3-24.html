@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>상태 선택자</title>
+<style>
+    input:enabled{background-color:white;}
+    /*input 태그가 사용 가능할 경우에 background-color 속성에 white키워드를 적용*/
+    input:disabled{background-color:gray;}
+    /*input 태그가 사용 가능할 경우 background-color 속성에 gray 키워드를 적용*/
+    input:focus{background-color:orange;}
+    /*input 태그에 초점이 맞추어진 경우*/
+</style>
+</head>
+<body>
+    <h2>Enabled</h2>
+    <input/>
+    <h2>Disabled</h2>
+    <input disabled="disabled"/>
+</body>
+</html>
