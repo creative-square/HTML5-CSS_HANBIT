@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>구조 선택자와 관련된 주의 사항</title>
+<style>
+    /* li>a:first-child{color:red;} */
+    li:first-child>a{color:red;}
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Condrasa</a></li>
+        <li><a href="#">Condrasa</a></li>
+        <li><a href="#">Condrasa</a></li>
+        <li><a href="#">Condrasa</a></li>
+        <li><a href="#">Condrasa</a></li>
+    </ul>
+</body>
+</html>
